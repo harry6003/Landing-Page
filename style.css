@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-size: inherit;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+    margin: 0.5% auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.current {
+    color: #333333;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    position: relative;
+}
+
+.right_container {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.options {
+    padding-bottom: 16px;
+    padding-top: 12px;
+}
+
+.left_container {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+    border-radius: 50px;
+    position: relative;
+    width: 175px;
+    height: 45px;
+    top: 5px;
+}
+
+.call_to_action {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    color: white;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 23px;
+}
+
+.right_pannel {
+    display: grid;
+    grid-template-rows: 450px 100px;
+}
+
+.description {
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.description h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 150%;
+    max-width: 500px;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 200%;
+    max-width: 480px;
+}
+
+.redirect {
+    /* max-width: 180px; */
+    padding-left: 100px;
+}
+
+.redirect a {
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 10px 37px 10px 37px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.redirect {}
+
+.gradient-text {
+    background-image: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.left_pannel {
+    justify-self: end;
+}
